@@ -124,3 +124,18 @@ if num % 2 == 0:
     print("The number is even")
 else:
     print("The number is odd")
+
+
+
+
+
+
+#comparation operator - სექციის გავლის შემდეგ  გააკეთეთ რამოდენიმე მაგალითი
+
+a = 5
+b = 10
+
+print(a == b)  # False, 5 არ უდრის 10-ს
+print(a != b)  # True, 5 არ უდრის 10-ს
+print(a < b)   # True, 5 ნაკლებია 10-ზე
+print(a > b)   # False, 5 არ არის დიდი 10-ზე
