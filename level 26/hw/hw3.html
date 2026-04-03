@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Priority Example</title>
+
+    <style>
+        h1 {
+            color: blue;
+            background-color: lightyellow;
+            text-align: center;
+            font-size: 30px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+    ეს არის h1 ელემენტი
+
+    აქ გამოყენებულია inline style, რომელიც არის:
+    color: red;
+    font-size: 50px;
+
+    Inline style უფრო ძლიერი (უფრო პრიორიტეტული) არის,
+    ვიდრე internal css.
+
+    ამიტომ:
+
+    color იქნება Red
+    font-size იქნება 50px და არა 30px
+
+    მაგრამ რადგან background-color, text-align და border
+    inline style - ში არ წერია,
+    ეს style - ები internal css - დან დარჩება.
+
+  -->
+
+       <h1 style="color: red; font-size: 50px;">Hello World</h1>
+
+</body>
+</html>
