@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo Selectors</title>
+
+  <style>
+    
+    .text1:hover {
+      color: red;
+      transition: 0.3s;
+    }
+
+   
+    .text2:active {
+      text-decoration: underline;
+      color: green;
+    }
+
+   
+    a.text3:visited {
+      color: purple;
+    }
+
+    a.text3 {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p class="text1"> ეს ტექსტი hover-ის დროს წითლდება</p>
+
+  <p class="text2"> ამ ტექსტზე click-ის დროს ქვედა ხაზი ჩნდება</p>
+
+  <a href="https://example.com" class="text3">
+     ეს არის link — visited-ის დროს იცვლის ფერს
+  </a>
+
+</body>
+</html>

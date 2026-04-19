@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styled Table and List</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6ff;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #000A23;
+      font-style: italic;
+    }
+
+    
+
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 2px dotted blue;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #000A23;
+      color: white;
+      font-style: italic;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #dce3ff;
+    }
+
+    
+
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      background-color: white;
+      width: 40%;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    li {
+      font-style: italic;
+      color: #333;
+      margin: 5px 0;
+    }
+
+    li:hover {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+
+<h2>Styled Table</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <td>Giorgi</td>
+    <td>15</td>
+    <td>Tbilisi</td>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>16</td>
+    <td>Kutaisi</td>
+  </tr>
+  <tr>
+    <td>Nika</td>
+    <td>14</td>
+    <td>Batumi</td>
+  </tr>
+</table>
+
+<h2>Styled List</h2>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Python</li>
+</ul>
+
+</body>
+</html>

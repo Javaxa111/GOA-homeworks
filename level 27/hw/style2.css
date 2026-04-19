@@ -1,0 +1,62 @@
+/* საერთო სტილი კონტეინერისთვის */
+.link-container {
+    padding: 50px;
+    font-family: serif;
+}
+
+/* --- სურათი 1: სხვადასხვა ფერები და ხაზგასმები --- */
+
+/* წითელი ლინკი ღია წითელი ფონით */
+.link-red {
+    color: red;
+    text-decoration: underline;
+    background-color: #ffe6e6; /* ძალიან ღია წითელი */
+    padding: 2px 5px;
+    text-decoration-thickness: 2px;
+}
+
+/* მწვანე ლინკი - ყველა ასო დიდია (Uppercase) */
+.link-green {
+    color: #00ff00;
+    text-decoration: underline;
+    text-transform: uppercase; /* ასოების დიდებად გადაქცევა */
+    font-weight: bold;
+}
+
+/* ლურჯი ლინკი ჩარჩოთი (Border) */
+.link-border {
+    color: #2c3e50;
+    text-decoration: underline;
+    border: 2px solid blue; /* ლურჯი ჩარჩო */
+    padding: 5px 10px;
+}
+
+/* --- სურათი 2: გასტილული ლინკი ტექსტში --- */
+
+.link-styled {
+    color: #7d5fff; /* იასამნისფერი */
+    text-decoration: none; /* თავიდან ხაზი არ აქვს */
+    border-bottom: 3px solid green; /* სქელი მწვანე ხაზი ქვემოთ */
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.link-styled:hover {
+    cursor: pointer; /* მაუსის ფორმის შეცვლა */
+    opacity: 0.8; /* ოდნავ გაუფერულება მიტანისას */
+}
+
+/* --- სურათი 3: ლურჯი ბლოკი თეთრი ტექსტით --- */
+
+.link-box {
+    display: inline-block; /* რომ padding-მა სწორად იმუშაოს */
+    background-color: #0000a0; /* მუქი ლურჯი ფონი */
+    color: white; /* თეთრი ტექსტი */
+    padding: 20px 40px; /* შიდა დაშორება (ბოქსის ზომა) */
+    text-decoration: underline; /* ხაზგასმული ტექსტი */
+    font-size: 20px;
+}
+
+.link-box:hover {
+    background-color: #0000ff; /* ფერის შეცვლა მაუსის მიტანისას */
+}
