@@ -1,0 +1,23 @@
+ol.ol1 {
+  text-transform: uppercase;
+  list-style-type: decimal;
+  color: #2c3e50;
+}
+
+ol.ol2 {
+  text-transform: capitalize;
+  list-style-type: upper-roman;
+  color: #8e44ad;
+}
+
+ul.ul1 {
+  text-transform: lowercase;
+  list-style-type: square;
+  color: #16a085;
+}
+
+ul.ul2 {
+  text-transform: capitalize;
+  list-style-type: circle;
+  color: #e67e22;
+}

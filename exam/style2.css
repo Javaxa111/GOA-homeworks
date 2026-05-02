@@ -1,0 +1,45 @@
+.container {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding:10px;
+    border: 1px solid #efdddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea{
+    height:80px
+}
+
+button{
+    padding:12px;
+    background: rgb(232, 232, 143);
+    border:none;
+    border-radius: 8px;
+    font-size: 18px;
+    color:white;
+
+}
+
+button:hover {
+    background:rgb(111, 179, 10)
+}

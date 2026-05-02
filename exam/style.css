@@ -1,0 +1,27 @@
+.table-container {
+    width: 600px;
+    border: 2px solid rgb(51, 0, 88);
+    border-radius: 4px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(9, 13, 116);
+    color:rgb(244, 242, 242);
+}
+
+th, td{
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid black
+}
+
+tbody tr {
+    background-color: #e6e6e6bb;
+
+}
+

@@ -1,0 +1,17 @@
+
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    background-color: #66f2d6; /* turquoise */
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    font-weight: bold;
+}

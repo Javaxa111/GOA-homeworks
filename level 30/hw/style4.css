@@ -1,0 +1,39 @@
+body { 
+    background-color: #e0e0e0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; }
+
+.dark-form { 
+    background-color: #444; 
+    padding: 30px; 
+    width: 300px; 
+    border-radius: 5px; 
+    text-align: center; }
+
+h2 { 
+    color: white; 
+    font-weight: 300; 
+    margin-bottom: 20px; }
+
+input { 
+    width: 100%; 
+    padding: 12px; 
+    margin: 8px 0; 
+    background: #555; 
+    border: 1px solid #666; 
+    color: white; 
+    box-sizing: border-box; }
+
+input::placeholder { 
+    color: #ccc; }
+    
+.signup-btn { 
+    width: 100%; 
+    padding: 12px; 
+    background-color: #c5d68d; 
+    border: none; 
+    color: #444;
+    margin-top: 15px;
+    cursor: pointer; }
