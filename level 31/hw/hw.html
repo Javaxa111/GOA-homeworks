@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub - ფილმების სამყარო</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Movie<span>Hub</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#register" class="btn-reg">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>აღმოაჩინე საუკეთესო ფილმები</h1>
+            <p>ისიამოვნეთ უახლესი კინოჩვენებებით მაღალ ხარისხში.</p>
+            <a href="#" class="cta-btn">ნახვა</a>
+        </div>
+    </section>
+
+   <section class="movies-container">
+        <div class="movie-card">
+            <div class="movie-img" style="background-image: url('https://image.tmdb.org/t/p/w500/edv5CZvj0h9Z7Y6o1hFuZpMCQp4.jpg')"></div>
+            <div class="movie-info">
+                <h3>Inception</h3>
+                <p>Sci-Fi | 8.8 IMDb</p>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-img" style="background-image: url('https://image.tmdb.org/t/p/w500/qJ2tW6uR7XpSZYhf970mYvAiha1.jpg')"></div>
+                <h3>The Dark Knight</h3>
+                <p>Action | 9.0 IMDb</p>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <div class="movie-img" style="background-image: url('https://image.tmdb.org/t/p/w500/gEU2QGdxLh2wmsfsasjUvfsH6Space.jpg')"></div>
+            <div class="movie-info">
+                <h3>Interstellar</h3>
+                <p>Adventure | 8.7 IMDb</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2>ჩვენს შესახებ</h2>
+            <p>MovieHub არის პლატფორმა კინომოყვარულებისთვის, რომელიც 1967 წლიდან აწვდის მომხმარებელს საუკეთესო კონტენტს. ჩვენი მიზანია შევქმნათ ყველაზე კომფორტული გარემო ფილმების სანახავად.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2>კონტაქტი</h2>
+            <div class="contact-box">
+                <p> თბილისი, საქართველო</p>
+                <p> support@moviehub.ge</p>
+                <p> +995 555 12 34 56</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="section-padding">
+        <div class="registration-container">
+            <form class="reg-form">
+                <h2>რეგისტრაცია</h2>
+                <div class="input-group">
+                    <label>სახელი</label>
+                    <input type="text" placeholder="შეიყვანეთ სახელი">
+                </div>
+                <div class="input-group">
+                    <label>ელ-ფოსტა</label>
+                    <input type="email" placeholder="example@mail.com">
+                </div>
+                <div class="input-group">
+                    <label>პაროლი</label>
+                    <input type="password" placeholder="******">
+                </div>
+                <button type="submit" class="submit-btn">შექმენი ანგარიში</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MovieHub. ყველა უფლება დაცულია.</p>
+    </footer>
+
+</body>
+</html>

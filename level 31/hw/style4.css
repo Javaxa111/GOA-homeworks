@@ -1,0 +1,20 @@
+
+#container {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db; 
+    color: white;
+
+    /* peding სივრცე შიგთავსსა და ჩარჩოს შორის. */
+    padding: 20px;
+
+    /* border  ხაზი, რომელიც გარს აკრავს პედინგს და შიგთავსს. */
+    border: 5px solid black;
+
+    /* margin სივრცე ჩარჩოს გარეთ. აშორებს ელემენტს სხვებისგან. */
+    margin: 30px;
+}
+
+/* მთლიანი სიგანის გამოთვლა:
+   Width (300px) + Peding (20px*2) + Border (5px*2) = 350px 
+*/

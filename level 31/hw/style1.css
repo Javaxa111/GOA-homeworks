@@ -1,0 +1,22 @@
+
+.box-container {
+    background-color: #e0e0e0;
+    padding: 50px;
+    display: inline-block;
+}
+
+
+.box-model-example {
+    width: 200px;          
+    height: 100px;          
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    
+
+   
+    padding: 30px;         
+    border: 15px solid #FF5722; 
+    margin: 40px;           
+}

@@ -1,0 +1,21 @@
+/* 1. ყველა ელემენტის განულება */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. CLEANUP*/
+ul, ol {
+    list-style: none; /* სიებიდან წერტილების მოშორება */
+}
+
+a {
+    text-decoration: none; /* ლინკებიდან ხაზგასმის მოშორება */
+    color: inherit;       /* ლინკმა ფერი მშობლისგან აიღოს */
+}
+
+img {
+    max-width: 100%;      /* სურათი არ გასცდეს კონტეინერს */
+    display: block;
+}
