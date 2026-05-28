@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.card-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 630px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+section {
+  padding: 30px;
+}
+
+
+.top-section h1 {
+  color: hsl(179, 62%, 43%); 
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.top-section h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.top-section p {
+  color: hsl(218, 22%, 67%); 
+  line-height: 1.6;
+}
+
+.price-section {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+}
+.price-section h3, .features-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.period {
+  color: rgba(255, 255, 255, 0.6);
+}
+.price-section p {
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+.signup-btn {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+.signup-btn:hover {
+  background-color: #92be22;
+}
+
+
+.features-section {
+  background-color: hsl(179, 62%, 38%); 
+  color: #fff;
+}
+.features-section ul {
+  list-style: none;
+}
+.features-section li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+
