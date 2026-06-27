@@ -1,0 +1,9 @@
+.fixed-red-box {
+    width: 90px;
+    height: 90px;
+    background-color: red;   
+    position: fixed;         
+    top: 10px;               
+    right: 10px;              
+    z-index: 9999;            
+}
