@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 48px;
+  color: #b8b8b8;
+  font-weight: 300;
+}
+
+
+.stage {
+  width: 700px;
+  height: 350px;
+  position: relative;
+}
+
+
+.bouncing-ball {
+  width: 60px;
+  height: 60px;
+  background-color: #31a9ff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  animation: arcPath 3s ease-in-out infinite alternate;
+}
+
+@keyframes arcPath {
+  0% {
+    left: 30px;
+    bottom: 30px;
+    transform: scale(1);
+  }
+  50% {
+    left: 320px;
+    bottom: 180px;
+    transform: scale(2.2); 
+  }
+  100% {
+    left: 610px;
+    bottom: 30px;
+    transform: scale(1);
+  }
+}

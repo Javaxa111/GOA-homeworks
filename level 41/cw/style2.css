@@ -1,0 +1,12 @@
+.rotate-box {
+  width: 120px;
+  height: 120px;
+  background-color: #2ecc71; 
+  transition: transform 0.25s;
+}
+
+
+.rotate-box:hover {
+  transform: rotate(120deg);
+  background-color: #e67e22;
+}

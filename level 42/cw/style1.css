@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* ანიმაციის კონტეინერი */
+.animation-container {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* წრე და მისი ანიმაცია */
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: #82c3ff;
+  border-radius: 50%;
+  animation: growAndMove 3s ease-in-out infinite alternate;
+}
+
+@keyframes growAndMove {
+  0% {
+    transform: translateX(0) scale(1);
+    background-color: #82c3ff;
+  }
+  100% {
+    transform: translateX(450px) scale(2.8);
+    background-color: #82c3ff;
+  }
+}
+
+/* დროის ხაზი (Timeline) */
+.timeline {
+  width: 510px;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.timeline .line {
+  width: 100%;
+  height: 2px;
+  background-color: #222;
+  position: relative;
+}
+
+.timeline .line::before,
+.timeline .line::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  width: 2px;
+  height: 18px;
+  background-color: #222;
+}
+
+.timeline .line::before {
+  left: 0;
+}
+
+.timeline .line::after {
+  right: 0;
+}
+
+.label {
+  position: absolute;
+  top: -25px;
+  font-size: 16px;
+  font-style: italic;
+  font-family: cursive, sans-serif;
+}
+
+.label.start {
+  left: 0;
+}
+
+.label.end {
+  right: 0;
+}
+
+.duration-text {
+  margin-top: 15px;
+  font-size: 22px;
+  font-style: italic;
+  font-family: cursive, sans-serif;
+  color: #666;
+}

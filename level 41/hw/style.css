@@ -1,0 +1,118 @@
+:root {
+  /* Colors */
+  --gold-500: hsl(31, 77%, 52%);
+  --cyan-800: hsl(184, 100%, 22%);
+  --green-950: hsl(179, 100%, 13%);
+  --white-transparent: hsla(0, 0%, 100%, 0.75);
+  --gray-100: hsl(0, 0%, 95%);
+  --font-body: 'Lexend Deca', sans-serif;
+  --font-heading: 'Big Shoulders Display', cursive, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.card {
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card--sedans {
+  background-color: var(--gold-500);
+}
+
+.card--suvs {
+  background-color: var(--cyan-800);
+}
+
+.card--luxury {
+  background-color: var(--green-950);
+}
+
+
+.card__icon {
+  margin-bottom: 1.25rem;
+}
+
+.card__title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gray-100);
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
+}
+
+.card__description {
+  color: var(--white-transparent);
+  line-height: 1.5;
+  font-size: 0.825rem;
+  margin-bottom: 2.5rem;
+}
+
+
+.card__btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  background-color: var(--gray-100);
+  border: 2px solid var(--gray-100);
+  border-radius: 2rem;
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: 0.825rem;
+  margin-top: auto;
+  transition: all 0.3s ease;
+}
+
+.card--sedans .card__btn {
+  color: var(--gold-500);
+}
+
+.card--suvs .card__btn {
+  color: var(--cyan-800);
+}
+
+.card--luxury .card__btn {
+  color: var(--green-950);
+}
+
+.card__btn:hover {
+  background-color: transparent;
+  color: var(--gray-100);
+}
+
+@media (min-width: 600px) {
+  .card-container {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1;
+  }
+}

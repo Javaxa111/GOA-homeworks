@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to bottom, #d67a00, #5c2f00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.eclipse-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.sun {
+  width: 150px;
+  height: 150px;
+  background-color: #ffea00;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #ffea00;
+  position: absolute;
+}
+
+.moon {
+  width: 150px;
+  height: 150px;
+  background-color: #d67a00;
+  border-radius: 50%;
+  position: absolute;
+  animation: moveMoon 4s infinite linear;
+}
+
+@keyframes moveMoon {
+  0% {
+    transform: translate(-10px, -10px);
+  }
+  50% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(-10px, -10px);
+  }
+}

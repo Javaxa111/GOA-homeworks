@@ -1,0 +1,12 @@
+.delay-scale-box {
+  width: 150px;
+  height: 100px;
+  background-color: #34495e; 
+  transition-duration: 0.3s;
+  transition-delay: 2s;
+}
+
+
+.delay-scale-box:hover {
+  transform: scaleX(2);
+}
