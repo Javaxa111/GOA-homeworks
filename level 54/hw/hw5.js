@@ -1,0 +1,1 @@
+const triple = (num) => num * 3;
